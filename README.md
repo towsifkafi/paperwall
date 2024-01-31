@@ -62,3 +62,4 @@ Also, these libraries/links were very helpful resources throughout the developme
 - https://github.com/clap-rs/clap
 - https://github.com/johnthagen/min-sized-rust
 - https://medium.com/@emilygoldfein/designing-cli-tools-a8e0858f606e
+- https://github.com/dirien/rust-cross-compile
