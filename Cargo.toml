@@ -1,0 +1,25 @@
+[package]
+name = "paperwall"
+description = "Simple program to fetch random image and set it as wallpaper"
+version = "0.1.0"
+edition = "2021"
+authors = ["Towsif Kafi <kafitowsif@gmail.com>"]
+categories = ["command-line-utilities", "multimedia::images"]
+keywords = ["wallpaper", "desktop", "random", "background"]
+readme = "README.md"
+license-file = "LICENSE"
+homepage = "https://github.com/towsifkafi/paperwall"
+repository = "https://github.com/towsifkafi/paperwall"
+
+[profile.release]
+strip = true
+
+[dependencies]
+clap = { version = "4.4.18", features = ["derive"] }
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0.196", features = ["derive"] }
+wallpaper = { version = "3", features = ["from_url"] }
+colored = "2.1.0"
+rand = "0.8.5"
+terminal-log-symbols = "0.1.6"
