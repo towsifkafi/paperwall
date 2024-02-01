@@ -33,8 +33,6 @@ this will fetch a random wallpaper that has `pokemon` tag. Also, you can search 
 ```sh
 paperwall --query "magikarp" --color "ffffff"
 ```
-> [!NOTE]
-> Wallhaven does not require an auth key. But if you want to search for NSFW queries, you'll need one. To pass an auth key use the `--key` argument.
 
 ### Help Page:
 ```
@@ -49,6 +47,8 @@ Options:
   -h, --help           Print help
   -V, --version        Print version
 ```
+> [!NOTE]
+> Wallhaven does not require an auth key. But if you want to search for NSFW queries, you'll need one. To pass an auth key use the `--key` argument.
 
 ## Development
 Since this is my first project in rust, there might a lot of bugs. Feel free to submit a Pull Request or post an issue if you encounter any bugs or errors.
