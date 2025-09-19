@@ -4,7 +4,7 @@ This cli tool is my first Rust project, uses [Wallhaven](https://wallhaven.cc/)'
 
 ## Installation
 
-You can downlaod binaries for your operating system from the [releases](https://github.com/towsifkafi/paperwall/releases/) section
+You can download binaries for your operating system from the [releases](https://github.com/towsifkafi/paperwall/releases/) section
 
 Or, if you have rust and cargo installed on your system:
 ```sh
